@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: "DanaFaNum Med";
+    src: local("DanaFaNum Med"),url("/fonts/Dana/woff2/DanaFaNum-Regular.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "DanaFaNum ExtraBold";
+    src: local("DanaFaNum ExtraBold"),url("/fonts/Dana/woff2/DanaFaNum-ExtraBold.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana Medium";
+    src: local("Dana Medium"),url("/fonts/Dana/woff2/Dana-Regular.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana Bold";
+    src: local("Dana Bold"),url("/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana ExtraLight";
+    src: local("Dana ExtraLight"),url("/fonts/Dana/woff2/Dana-Light.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana ExtraBold";
+    src: local("Dana ExtraBold"),url("/fonts/Dana/woff2/Dana-ExtraBold.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dana";
+    src: local("Dana"),url("/fonts/Dana/woff2/DanaFaNum-Regular.woff2");
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: "Morabba Light";
+    src: local("Morabba Light"),url("/fonts/Morabba/woff2/Morabba-Light.woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Morabba Medium";
+    src: local("Morabba Medium"),url("/fonts/Morabba/woff2/Morabba-Medium.woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Morabba Bold";
+    src: local("Morabba Bold"),url("/fonts/Morabba/woff2/Morabba-Bold.woff2");
+    font-display: swap;
+  }
+}
+.globalBody{
+  
+  background: rgb(165,182,223);
+  background: linear-gradient(225deg, rgba(165,182,223,1) 17%, rgba(193,191,196,1) 33%, rgba(163,211,216,1) 48%, rgba(201,209,190,1) 68%, rgb(246, 196, 148) 100%, rgba(90,15,62,1) 100%);
+}
+body{
+  @apply font-Dana ;
+  min-height: 100vh;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+
+}
+img{
+  max-width: unset;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(242, 99, 178) ;
+  border-radius: 20px;
+}
+
+
+

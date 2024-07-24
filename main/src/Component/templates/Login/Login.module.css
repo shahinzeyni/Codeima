@@ -1,0 +1,66 @@
+.loginMain{
+    @apply grid md:grid-cols-2  ;
+    height: 100vh;
+    background-color: #F5F3F3;
+
+    
+}
+.login_left{
+      
+  background: rgb(165,182,223);
+  background: linear-gradient(225deg, rgba(165,182,223,1) 17%, rgba(193,191,196,1) 33%, rgba(163,211,216,1) 48%, rgba(201,209,190,1) 68%, rgb(246, 196, 148) 100%, rgba(90,15,62,1) 100%);
+    @apply flex justify-center items-end m-2 rounded-[8px];
+    & img {
+        @apply w-[60%];
+    }
+}
+.login_right_img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 5%;
+}
+.login_right{
+    @apply flex justify-start items-center flex-col;
+}
+.login_tight_title{
+    @apply  mt-32;
+    & h1 {
+        @apply font-DanaDemiBold text-[25px] text-title;
+    }
+}
+.form_login{
+    @apply mt-14 w-[50%];
+}
+.password_input{
+    @apply mt-4;
+}
+.input_content{
+    @apply flex flex-col items-start;
+    & input{
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #d8d6e3a7 ;
+    }
+    & input::placeholder{
+        color: rgba(62, 58, 58, 0.666);
+    }
+    & input:focus{
+        outline-color: #719ECE;
+    }
+    & label{
+        @apply text-[12px] font-DanaExtraLight;
+    }
+}
+
+.loginBtn{
+    & button{
+        background-color: #719ECE;
+        width: 100%;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin-top: 25px;
+    }
+}

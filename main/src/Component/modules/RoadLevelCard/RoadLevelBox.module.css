@@ -1,0 +1,92 @@
+.box{
+    @apply bg-whiteColor  md:w-full 2sm:w-[400px]  mx-auto   rounded-[20px];
+    
+    width: 100%;
+}
+.boxTop{
+    @apply bg-[#D8D8D8] rounded-[20px];
+    margin: 7px;
+    & a {
+        @apply flex items-center justify-center ;
+        & img {
+            width: 80%;
+        }
+    }
+}
+.boxBottom{
+    padding: 10px 30px 0px 30px;
+}
+.boxBottom_up{
+    text-align: center;
+    & h5{
+        @apply text-title text-[17px] font-DanaExtraBold;
+        
+    }
+    & div>p{
+
+        @apply mt-4 leading-8 font-DanaExtraLight text-titleDescription;
+    }
+}
+
+.boxBottom_down{
+    @apply font-DanaExtraLight  text-titleDescription  text-[15px] mt-12 ;
+    & div {
+        @apply mr-2 font-DanaExtraLight  text-titleDescription  text-[14px];
+    }
+
+    & button{
+       
+
+    }
+}
+
+
+.navbar_btn1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  
+  .navbar_btn1 {
+    
+    width: 100%;
+    height: 35px;
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #0632e5;
+    border-bottom:5px solid #0632e5;
+    color: #ffffff;
+    background: #963ae1;
+    font-size: 14px;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight mt-8 mb-5;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .navbar_btn1:hover {
+    transform: translate(0, .25em);
+    
+  }
+  .navbar_btn1>span{
+    width: 100px;
+  }
+ 
+  
+  .navbar_btn1:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .navbar_btn1:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  

@@ -1,0 +1,193 @@
+.MainCoursePath{
+
+  
+        background: rgb(165,182,223);
+        background: linear-gradient(225deg, rgba(165,182,223,1) 17%, rgba(193,191,196,1) 33%, rgba(163,211,216,1) 48%, rgba(201,209,190,1) 68%, rgb(246, 196, 148) 100%, rgba(90,15,62,1) 100%);
+        min-height: 100vh;
+    
+}
+.pathMain{
+    @apply sm:px-0 px-4  sm:container mt-8;
+}
+.pathHeader{
+    @apply flex justify-center text-[30px];
+    & h4{
+        @apply font-DanaDemiBold text-title;
+    }
+}
+
+.pathContents{
+    
+    @apply lg:px-12 mt-32 ;
+}
+
+.pathCourse{
+    @apply flex flex-wrap md:flex-row flex-col   justify-between;
+
+}
+.pathCourse:not(:first-child){
+    @apply mt-48;
+}
+
+.pathCourse:nth-child(odd){
+    @apply md:flex-row;
+}
+.pathCourse:nth-child(even){
+    @apply md:flex-row-reverse;
+}
+
+.pathCourse_right{
+    @apply  md:mt-0 mt-10  flex-1;
+    display: flex;
+    justify-content: center;
+    & img{
+        @apply 2md:w-[70%] w-[90%] ;
+    }
+}
+
+
+.pathCourse_left{
+    @apply md:ml-8 flex-1   text-center;
+
+
+}
+.pathCourse_left_title{
+    & h4{
+        @apply md:mt-0 mt-4  2sm:text-[25px] text-[20px] font-DanaMedium ;
+    }
+    & p{
+        @apply mt-4 text-titleDescription 2sm:text-[13px] text-[11px];
+        line-height: 25px;
+    }
+}
+
+.pathCourse_left_content{
+    @apply flex flex-wrap justify-around text-white px-1 py-2  rounded-[10px] mt-6 ;
+    background-color: rgb(34, 120, 12);
+
+    & div{
+        @apply flex flex-col-reverse items-center ;
+        & svg{
+            @apply mb-2 ;
+            font-size: 17px;
+        }
+        & span{
+            @apply 2sm:text-[12px] text-[11px];;
+        }
+    }
+}
+.pathCourse_left_content_price{
+    @apply font-DanaFaNumMed;
+}
+
+.pathCourse_left_btns{
+    @apply flex justify-center mt-2 4sm:text-[14px] text-[12px] ;
+    & button{
+        @apply 2sm:px-8 px-4 2sm:py-2 py-1 w-full mx-1  rounded-[50px];
+    }
+}
+.pathCourse_left_btnAbout{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+.pathCourse_left_btnAbout {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .pathCourse_left_btnAbout {
+    padding: .5rem 3.1rem;
+    border-radius: 80px;
+    font-weight: 400;
+    border: 1px solid #963ae1;
+    border-bottom:5px solid #963ae1;
+    color: #ffffff;
+    background: #496CFC;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .pathCourse_left_btnAbout:hover {
+    transform: translate(0, .25em);
+    
+  } 
+  
+  .pathCourse_left_btnAbout:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .pathCourse_left_btnAbout:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  
+
+  
+
+
+  
+
+.pathCourse_left_btnRegister {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .pathCourse_left_btnRegister {
+    padding: .5rem 5rem;
+    /* width: 100%; */
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #421369;
+    border-bottom:5px solid #020003;
+    color: #ffffff;
+    background: #421369;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .pathCourse_left_btnRegister:hover {
+    transform: translate(0, .25em);
+    
+  } 
+  
+  .pathCourse_left_btnRegister:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .pathCourse_left_btnRegister:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  
+
+  

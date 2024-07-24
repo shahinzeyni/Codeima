@@ -1,0 +1,19 @@
+.aboutCardMain{
+    @apply flex items-center justify-between lg:flex-row flex-col bg-[#FFFFFF] lg:h-[130px] rounded-[15px] p-2 px-4 1sm:w-full w-[163px];
+}
+.cardTop{
+    @apply flex justify-center ml-3;
+    & img{
+        @apply lg:w-[70%] 1sm:w-[50%] w-[30%] text-center flex justify-center;
+    }
+}
+.cardBottom{
+    @apply text-center;
+}
+
+.cardBottom_top{
+    @apply text-[#222224] 1sm:text-[17px] text-[12px] font-DanaDemiBold 1sm:mb-1 mb-0;
+}
+.cardBottom_bottom{
+    @apply text-titleDescription sm:text-[13px] 1sm:text-[12px] text-[10px]  pt-2;
+}

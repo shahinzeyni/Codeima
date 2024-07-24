@@ -1,0 +1,9 @@
+.aboutMain{
+    @apply grid md:grid-cols-3 1sm:grid-cols-2 sm:grid-rows-none grid-rows-1 1sm:grid-flow-row grid-flow-col 1sm:gap-4 gap-2 px-3 overflow-x-auto overflow-auto;
+}
+.aboutSection{
+    /* @apply overflow-x-auto overflow-auto ; */
+}
+.AboutTitle{
+    @apply text-center font-DanaDemiBold text-[20px] text-title mb-8; 
+}

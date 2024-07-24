@@ -1,0 +1,35 @@
+.sectionFriends{
+    margin: 100px 0;
+}
+.FriendsLanding_main{
+    @apply grid md:grid-cols-2 grid-cols-1  ;
+}
+.friendsRight {
+    @apply flex md:order-2 order-2 md:justify-start justify-center md:mt-0 mt-14;
+    & img{
+        @apply flex lg:w-[400px] 2md:w-[350px] md:w-[85%] 2sm:w-[384px] 2sm:h-[427.19px] w-full justify-center items-center lg:mr-4;
+    }
+}
+.friendsLeft{
+    @apply flex md:items-end items-center justify-center flex-col md:order-3 order-1;
+
+    & button{
+        background-color: blanchedalmond;
+        margin-left: 30px;
+        @apply md:ml-10 ml-0;
+    }
+}
+.friendsLeft_content{
+ 
+    
+
+    @apply mb-8 md:text-right text-center;
+
+    & h4{
+        @apply text-title 2md:text-[25px] text-[20px]  font-DanaExtraBold mb-5 ;
+    }
+    & p{
+        @apply text-titleDescription text-[14px] md:pl-9;
+    }
+
+}

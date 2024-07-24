@@ -1,0 +1,131 @@
+.main_Navbar{
+    @apply  sticky top-2 h-[65px]  z-50 container flex items-center justify-between ;
+    background-color: #40175136;
+    border-radius: 15px;
+    backdrop-filter: blur(7px) opacity(1);
+}
+
+
+.navbar_rightLogo {
+    & img{
+        @apply w-[72%];
+    }
+}
+.navBar_right{
+    @apply flex  items-center;
+}
+.navbarUlList{
+    @apply hidden lg:flex lg:items-center lg:justify-center font-Dana pt-1;
+
+    & li{
+       
+        @apply flex items-center mr-6 text-white;
+
+    }
+}
+
+.navbarIcon{
+    @apply lg:hidden ;
+    font-size: 20px;
+}
+   
+
+
+.nav{
+    @apply flex items-center justify-between ;
+    
+}
+
+.navbar_btn1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .navbar_btn1 {
+    padding: .5rem 1rem;
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #963ae1;
+    border-bottom:5px solid #963ae1;
+    color: #ffffff;
+    background: #496CFC;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .navbar_btn1:hover {
+    transform: translate(0, .25em);
+    
+  } 
+  
+  .navbar_btn1:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .navbar_btn1:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  
+
+  
+
+  
+
+  .navbar_btn2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .navbar_btn2 {
+
+    background: #e33c3c;
+    padding: .5rem 1rem;
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #e16767;
+    border-bottom:5px solid #e16767;
+    color: #ffffff;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight mr-4;
+    box-shadow: 0px 4px 5px 0px #e33c3c;
+  }
+  
+
+  .navbar_btn2:hover {
+    transform: translate(0, .25em);
+  }
+  
+
+  
+  .navbar_btn2:active {
+    transform: translate(0, .75em);
+    background: #b83232;
+  }
+  
+  .navbar_btn2:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+  

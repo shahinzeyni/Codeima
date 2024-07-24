@@ -1,0 +1,46 @@
+.notifMain{
+    @apply container bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+.nameSection{
+    padding-bottom: 10px;
+
+    & span{
+        @apply text-[20px] font-DanaMedium text-title;
+
+    }
+}
+.notifList{
+    @apply mt-8;
+}
+.notifItem{
+    width: 50%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px ;
+}
+.notifItem.active{
+    border-bottom:solid 2px  ;
+    color: rgb(18, 194, 18)
+
+}
+
+.notifList{
+    & ul {
+        @apply flex justify-around ;
+
+        & li{
+            @apply 1sm:text-[14px] text-[10px]  font-DanaMedium text-title;
+        }
+        &li.active{
+            @apply text-[green];
+        }
+    }
+
+}
+
+.notifContents{
+    @apply py-[72px] px-2 flex justify-center;
+}

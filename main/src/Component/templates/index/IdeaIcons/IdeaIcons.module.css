@@ -1,0 +1,22 @@
+.IdeaIconsSection{
+    @apply mt-48;
+}
+.ideaBoxes{
+    @apply relative  bg-white rounded-[50px] gap-8 md:flex-nowrap flex-wrap flex justify-around items-center;
+}
+.ideaBox {
+    @apply flex flex-col justify-center m-2  items-center  ;
+    
+    & div{
+        /* @apply bg-title p-2 w-[40px] ; */
+    }
+    & img {
+        @apply w-[60%] mb-2 drop-shadow-[0px_4px_6px_#DB2487] ;
+        margin-top: -20px ;
+    }
+    
+}
+
+.ideaBox_desc{
+    @apply text-[13px] font-DanaExtraLight;
+}

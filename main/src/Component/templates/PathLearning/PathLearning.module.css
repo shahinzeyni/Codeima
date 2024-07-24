@@ -1,0 +1,163 @@
+.PathLearningMain2{
+    @apply px-2;
+}
+.courseHeader{
+    @apply grid 2md:grid-cols-2 grid-cols-1 pt-32;
+
+}
+
+.courseHeader_right{
+    @apply pl-4 flex flex-col md:text-right text-center justify-center 2md:order-1 order-2 md:mt-0 mt-4  ;
+    & h1{
+        @apply 1sm:text-[30px] 2sm:text-[25px] text-[20px] font-DanaDemiBold text-title ;
+    } 
+    & p {
+        @apply 1sm:text-[15px] text-[13px] mt-4 text-titleDescription;
+    }
+}
+.courseHeader_left{
+    @apply 2md:order-2 order-1;
+    & img{
+        @apply w-full rounded-[15px];
+    }
+}
+.courseHeader_right_btns{
+    @apply xl:mt-32 lg:mt-16 2md:mt-14 mt-8 flex justify-between items-center 2md:flex-row flex-col;
+    & span{
+       
+        @apply 2md:ml-4 2md:mt-0 mt-4 bg-slate-300 font-DanaDemiBold font-DanaExtraLight  p-2 rounded-[5px];
+    }
+}
+.courseBoxInfo{
+    @apply grid;
+}
+.courseBoxInfos{
+    @apply grid 2md:grid-cols-3 1sm:grid-cols-2 grid-cols-1 lg:gap-8 gap-4 xl:px-8
+ mt-16;
+}
+.InfoBox{
+    @apply rounded-[10px] p-4  ;
+    background-color: #ffffff;
+
+    
+}
+.infoBoxBottom_btns{
+    width: 100%;
+    @apply flex justify-center  flex-col items-center  ;
+}
+.infoBoxBottom_price{
+    border-top: solid 1px #4f6efa4c;
+    @apply flex justify-center mt-6 pt-2 px-8;
+    & span{
+        @apply text-[30px] font-DanaFaNumMed;
+    }
+}
+.infoBoxHeader{
+    @apply bg-slate-300 w-full flex justify-center rounded-[10px] p-4;
+}
+.infoBoxHeader_title{
+    @apply text-[20px] font-DanaExtraBold text-title ;
+}
+
+.infoBoxBottom{
+    @apply px-2 pt-4;
+}
+.infoBoxBottom_content{
+    @apply flex items-center mt-2 ;
+    & svg{
+        @apply ml-2 ;
+        color: #421369;
+    }
+}
+
+
+.infoBoxBottom_btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .infoBoxBottom_btn {
+    padding: .5rem 5rem;
+    /* width: 100%; */
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #421369;
+    border-bottom:5px solid #020003;
+    color: #ffffff;
+    background: #421369;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .infoBoxBottom_btn:hover {
+    transform: translate(0, .25em);
+    
+  } 
+  
+  .infoBoxBottom_btn:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .infoBoxBottom_btn:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  
+.courseHeader_right_btnRegister {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .courseHeader_right_btnRegister {
+    padding: .5rem 5rem;
+    /* width: 100%; */
+    border-radius: 12px;
+    font-weight: 400;
+    border: 1px solid #421369;
+    border-bottom:5px solid #020003;
+    color: #ffffff;
+    background: #421369;
+    transform-style: preserve-3d;
+    transition: .15s cubic-bezier(0, 0, .6, 1);
+    @apply font-DanaExtraLight;
+    box-shadow: 0px 4px 5px 0px #4f6dfa;
+  }
+  
+
+  
+  .courseHeader_right_btnRegister:hover {
+    transform: translate(0, .25em);
+    
+  } 
+  
+  .courseHeader_right_btnRegister:active {
+    background: #5fa2da;
+    transform: translate(0, .70em);
+  }
+  
+  .courseHeader_right_btnRegister:active::before {
+    transform: translate3d(0, 0, -1em);
+  }
+
+
+  

@@ -1,0 +1,51 @@
+.AddTicketMain{
+    @apply container bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+.nameSection{
+    @apply pb-[10px] flex justify-between;
+    border-bottom: 0.5px solid rgb(220, 196, 196) ;
+    & span{
+        @apply text-[20px] font-DanaMedium text-title;
+    }
+}
+
+.addTicketContent{
+    @apply grid md:grid-cols-2 grid-cols-1; 
+
+    & div{
+        @apply flex flex-col md:p-8 py-2 pt-4;
+        & label{
+            margin-bottom: 5px;
+        }
+    }
+}
+.inputDescription{
+    @apply col-span-full; 
+    & textarea{
+        width: 100%;
+        height: 50%;
+    } 
+}
+
+.inputTitle{
+    & input{
+        @apply w-full bg-[#F3F4F6] rounded-[8px] h-[40px];
+        border: solid 1px #ece4e4
+    }
+}
+
+.selectMain{
+    & select{
+        @apply w-full bg-[#F3F4F6] rounded-[8px] h-[40px];
+        border: solid 1px #ece4e4;
+    }
+}
+
+.inputDescription{
+    & textarea{
+        @apply w-full bg-[#F3F4F6] rounded-[8px] px-4 py-2 h-[100px];
+        border: solid 1px #ece4e4 ;
+    }
+}

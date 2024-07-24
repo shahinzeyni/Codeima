@@ -1,0 +1,31 @@
+.courseBoxMain{
+    @apply overflow-hidden bg-white lg:w-[100%] w-[100%] relative lg:px-[8px] px-0 pb-4 mx-auto rounded-[14px] ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxTop{
+    width: 100%;
+    /* margin-top: -30px; */
+    /* position: relative; */
+
+    @apply flex justify-center md:h-44 h-[9rem];
+
+    & a img{
+        @apply rounded-[14px] object-cover lg:w-[100%] w-[100%];
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    & a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+.boxBottom{
+    @apply mt-2 px-4;
+}
+.boxBottomContent{
+    margin-bottom: 10px;
+
+    & a{
+        @apply text-title text-[15px] font-DanaExtraLight ;
+    }
+}

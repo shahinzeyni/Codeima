@@ -1,0 +1,9 @@
+.noticeMain{
+    @apply flex justify-center;
+}
+.noticeImg{
+    @apply  overflow-hidden ;
+    & img{
+        @apply w-[520px] h-[260px] rounded-[20px] ;
+    }
+}

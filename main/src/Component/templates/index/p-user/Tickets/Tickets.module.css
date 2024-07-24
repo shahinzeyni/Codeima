@@ -1,0 +1,99 @@
+.ticketMain{
+    @apply container bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+.nameSection{
+    @apply pb-[10px] flex justify-between;
+    border-bottom: 0.5px solid rgb(220, 196, 196) ;
+    & span{
+        @apply text-[20px] font-DanaMedium text-title;
+
+    }
+}
+
+.ticketsContents{
+    @apply overflow-x-auto;
+    margin-top: 40px;
+    text-align: center;
+    & table{
+        width: 100%;
+
+    }
+    & table thead{
+        padding: 100px;
+    }
+    & table thead tr{
+        background-color: #EEEEEE;
+        
+    }
+    & table thead tr th:last-child   {
+        border-top-left-radius: 10px;
+    }
+    & table thead tr th:first-child{
+        border-top-right-radius: 10px;
+    }
+    & table thead tr th div{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        @apply text-title;
+
+       
+
+        & p{
+            margin-right: 5px;
+            font-size: 15px;
+        }
+        & svg{
+            color: #0bad49;
+            font-size: 20px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+    & tbody tr {
+        border-bottom: solid 1px #EEEEEE;
+       
+
+        & td {
+            padding: 10px 26px;
+           
+            
+            @apply md:w-[10%] w-[50%];
+            & div{
+                font-size: 12px;
+                margin: 10px 0;
+            }
+        }
+    }
+    
+}
+.tdSituationTicket{
+    @apply flex justify-center;
+    & p{
+
+        background-color: #DFEBFB;
+    
+        border-radius: 10px;
+        padding: 5px 5px;
+        width: 100px;
+    }
+    } 
+
+
+  
+  .navbar_btn1 {
+    @apply font-DanaMedium bg-[#0EA5E9]  text-white  sm:py-[15px] sm:px-[20px] rounded-[15px]  flex items-center text-[15px];
+
+    & svg{
+        margin-top: 2px;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+  }
+  
+
+  

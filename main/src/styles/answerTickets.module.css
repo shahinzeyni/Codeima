@@ -1,0 +1,42 @@
+.answerMain{
+    @apply container bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+
+.nameSection{
+    @apply pb-[10px];
+    border-bottom: 0.5px solid rgb(220, 196, 196) ;
+
+}
+.nameSectionSpan1{
+    @apply text-[20px] font-DanaMedium text-title;
+}
+.nameSectionSpan2{
+    @apply text-[12px] font-DanaFaNumMed mr-4 text-titleDescription bg-[#EEEEEE] rounded-[5px] p-1 ;
+}
+
+.ticketContentUser{
+    @apply mt-6 w-11/12 sm:w-2/3 bg-gray-100 text-zinc-700  p-4 rounded-2xl rounded-tr-sm;
+    & h4{
+        @apply font-DanaMedium ;
+    }
+    & span{
+        @apply mt-2 text-[10px] font-DanaFaNumMed text-zinc-500;
+    }
+    & p{
+        @apply text-[13px] text-zinc-600 mt-6;
+    }
+}
+.ticketContentAdmin{
+    @apply mt-6 w-11/12 sm:w-2/3 mr-auto bg-sky-500/30  text-zinc-700  p-4 rounded-2xl rounded-tr-sm;
+    & h4{
+        @apply font-DanaMedium text-left ;
+    }
+    & span{
+        @apply mt-2 block text-left  text-[10px] font-DanaFaNumMed text-zinc-500;
+    }
+    & p{
+        @apply text-[13px] text-zinc-600 mt-6;
+    }
+}
