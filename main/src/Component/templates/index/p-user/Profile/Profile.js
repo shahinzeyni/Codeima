@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import s from "./Profile.module.css";
 
 export default function Profile() {
@@ -19,7 +19,7 @@ export default function Profile() {
             <div className={s.formbottom_names_head}>
               <span>اطلاعات پایه</span>
               <div>
-              <svg
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1em"
                   height="1em"
@@ -27,12 +27,11 @@ export default function Profile() {
                 >
                   <path
                     fill="currentColor"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-1.2a8.8 8.8 0 1 0 0-17.6a8.8 8.8 0 0 0 0 17.6M11.4 10h1.2v7h-1.2zm.6-1a1 1 0 1 1 0-2a1 1 0 0 1 0 2"
                   />
                 </svg>
                 <p>برای تغییر اطلاعات پایه با پشتیبانی تماس بگیرید.</p>
-               
               </div>
             </div>
           </div>
@@ -44,8 +43,8 @@ export default function Profile() {
                   type="text"
                   id="birthdat"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">شماره تماس اول</label>
@@ -54,8 +53,8 @@ export default function Profile() {
                   id="birthdat"
                   disabled
                   value="09331847663"
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">شماره تماس دوم</label>
@@ -64,8 +63,8 @@ export default function Profile() {
                   id="birthdat"
                   disabled
                   value="09331847663"
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">استان </label>
@@ -74,8 +73,8 @@ export default function Profile() {
                   id="place_location"
                   disabled
                   value="آذربایجان شرقی"
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">نام مدرسه</label>
@@ -84,8 +83,8 @@ export default function Profile() {
                   id="school_name"
                   disabled
                   value="فردوسی"
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">کد ملی</label>
@@ -94,8 +93,8 @@ export default function Profile() {
                   id="Id_card"
                   disabled
                   value="136001564156"
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor=""> شهر</label>
@@ -104,8 +103,8 @@ export default function Profile() {
                   id="city_name"
                   value="تبریز"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">نام</label>
@@ -114,8 +113,8 @@ export default function Profile() {
                   id="first_name"
                   value="شاهین"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">نام خانوادگی</label>
@@ -124,8 +123,8 @@ export default function Profile() {
                   id="last_name"
                   value="زینی"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="پایه تحصیلی">پایه تحصیلی </label>
@@ -134,8 +133,8 @@ export default function Profile() {
                   id="grade_edu"
                   value="نهم"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="جنسیت"> جنسیت</label>
@@ -144,12 +143,12 @@ export default function Profile() {
                   id="sex"
                   value="پسر"
                   disabled
-                  autocomplete="family-name"
-                ></input>
+                  autoComplete="family-name"
+                />
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor=""> نشانی</label>
-                <textarea value={"باغمیشه"}  name="" id="addres"></textarea>
+                <textarea value={"باغمیشه"} name="" id="addres" />
               </div>
             </div>
           </div>

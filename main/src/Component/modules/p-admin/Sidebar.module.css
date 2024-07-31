@@ -1,0 +1,150 @@
+.sidebarMain{
+    height: 100%;
+  
+  }
+  .sidebarHeader{
+  
+  }
+  
+  .sidebar_menu_userpanel {
+      margin-top: 0px;
+      height: 100%;
+      & ul{
+  
+          background-color: rgb(108, 24, 226);
+          padding: 10px 0;
+          height: 100%;
+          @apply font-DanaMedium;
+  
+          & li{
+              & a{
+  
+                  padding-left: 10px;
+              }
+          }
+      }
+    
+    }
+  
+    .sideBar_itemEff {
+      color: white;
+    }
+  
+    .sideBar_itemEff::after {
+      background-color:blue;
+      content: '';
+      height: .5em;
+      width: .5em;
+      position: absolute;
+      bottom: 31.2px;
+      left: 0;
+      border-radius: 0 0 0 9px;
+      box-shadow: -2.1px 2.1px 0 2px #FFFFFF;
+    }
+    .sideBar_itemEff::before {
+      content: '';
+      background: blue;
+      height: .5em;
+      width: .5em;
+      position: absolute;
+      top: 31.2px;
+      left: 0em;
+      border-radius: 9px 0 0 0;
+      box-shadow: -3px -3px 0 2px #FFFFFF;
+      z-index: 100;
+    }
+  
+  
+    
+  .sideBar_itemEff1  {
+    height: 1.7em;
+    /* margin-right: 2.5rem; */
+    display: flex;
+    align-items: center;
+    font-size: 12pt;
+    border-radius: 0 9px 9px 0;
+    position: relative;
+    margin-top: 2rem;
+    color: white !important;
+    margin-top: 2.6rem;
+      & a{
+          & span {
+  
+              color: white;
+              font-size: 14px;
+              font-weight: 200;
+              margin-right: 8px;
+              text-decoration: none !important;
+          }
+      } 
+    }
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    .sidebar_menu_userpanel  ul  li a {
+          color: rgb(235, 3, 3) !important;
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          display: flex;
+          align-items: center;
+          padding: 15px 25px;
+          font-size: 15px;
+          margin-right: 25px;
+    }
+    
+    .sidebarItemLink{
+      color: white !important;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      padding: 15px 25px;
+      font-size: 15px;
+      margin-right: 25px;
+  
+      & svg{
+  
+          color: #f8a806;
+          font-size: 20px;
+      }
+  
+      & span {
+  
+          color: rgb(196, 20, 20);
+          font-size: 14px;
+          font-weight: 200;
+          margin-right: 8px;
+          text-decoration: none !important;
+      }
+    }
+    
+  
+    
+  
+    
+    
+    .sideBar_itemEff {
+      background: #FFFFFF;
+      height: 1.8em;
+      /* margin-right: .75rem; */
+      display: flex;
+      align-items: center;
+      font-size: 13pt;
+      border-radius: 0 9px 9px 0;
+      position: relative;
+      margin-top: 2.6rem;
+      padding-right: 15px;
+      padding-top: 3px;
+      color: rgb(139, 59, 59) !important;
+    }
+    
+  
+    .sidebarHeader{
+      @apply flex justify-center pt-8 ;
+    }

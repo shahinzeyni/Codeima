@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '@/Component/modules/Navbar/Navbar'
-import s from "@/styles/PathLearning.module.css"
+import React from "react";
+import Navbar from "@/Component/modules/Navbar/Navbar";
+import s from "@/styles/PathLearning.module.css";
 
-import { cn } from '@/utils/cn'
+import { cn } from "@/utils/cn";
 export default function path() {
   return (
     <div className={cn(s.MainCoursePath)}>
@@ -44,19 +44,16 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
@@ -72,24 +69,26 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
                 <div>
-                  <span>اشتراک ماهانه <span className={s.pathCourse_left_content_price}>450000</span></span>
+                  <span>
+                    اشتراک ماهانه{" "}
+                    <span className={s.pathCourse_left_content_price}>
+                      450000
+                    </span>
+                  </span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"
@@ -100,26 +99,27 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
               </div>
               <div className={s.pathCourse_left_btns}>
-                <button className={s.pathCourse_left_btnAbout}>مشخصات دوره</button>
-                <button className={s.pathCourse_left_btnRegister}>ثبت نام</button>
+                <button className={s.pathCourse_left_btnAbout}>
+                  مشخصات دوره
+                </button>
+                <button className={s.pathCourse_left_btnRegister}>
+                  ثبت نام
+                </button>
               </div>
             </div>
           </div>
@@ -154,19 +154,16 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
@@ -182,24 +179,26 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
                 <div>
-                  <span>اشتراک ماهانه <span className={s.pathCourse_left_content_price}>450000</span></span>
+                  <span>
+                    اشتراک ماهانه{" "}
+                    <span className={s.pathCourse_left_content_price}>
+                      450000
+                    </span>
+                  </span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"
@@ -210,26 +209,27 @@ export default function path() {
                       fill="none"
                       stroke="currentColor"
                       stroke-linejoin="round"
-                      stroke-width="2.7"
+                      strokeWidth="2.7"
                     >
-                      <path stroke-linecap="round" d="M29 6v29" />
+                      <path strokeLinecap="round" d="M29 6v29" />
                       <path d="M15 36.04A5.04 5.04 0 0 1 20.04 31H29v5.96A5.04 5.04 0 0 1 23.96 42h-3.92A5.04 5.04 0 0 1 15 36.96z" />
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         d="m29 14.066l12.883 3.056V9.013L29 6z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
-                      <path
-                        stroke-linecap="round"
-                        d="M6 8h14M6 16h14M6 24h10"
-                      />
+                      <path strokeLinecap="round" d="M6 8h14M6 16h14M6 24h10" />
                     </g>
                   </svg>
                 </div>
               </div>
               <div className={s.pathCourse_left_btns}>
-                <button className={s.pathCourse_left_btnAbout}>مشخصات دوره</button>
-                <button className={s.pathCourse_left_btnRegister}>ثبت نام</button>
+                <button className={s.pathCourse_left_btnAbout}>
+                  مشخصات دوره
+                </button>
+                <button className={s.pathCourse_left_btnRegister}>
+                  ثبت نام
+                </button>
               </div>
             </div>
           </div>
