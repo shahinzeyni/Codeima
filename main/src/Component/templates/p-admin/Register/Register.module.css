@@ -1,0 +1,103 @@
+.RegisterMain{
+    @apply container bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+.nameSection{
+    @apply pb-[10px] flex justify-between;
+    border-bottom: 0.5px solid rgb(220, 196, 196) ;
+    & span{
+        @apply text-[20px] font-DanaMedium text-title font-DanaMedium; 
+
+    }
+    & div{
+        @apply flex items-center text-[10px] text-title bg-zinc-200 rounded-[10px] p-2 ; 
+        & span{
+            @apply text-[10px]  
+        }
+        & svg{
+            @apply ml-2;
+        }
+    }
+}
+
+
+.formTop{
+    @apply mt-4;
+}
+.formTop_avatar{
+    @apply w-24 h-24 ;
+}
+.formTop_avatar{
+     & img {
+        @apply w-full rounded-full ;
+        border:1px solid rgb(6, 189, 58);
+     }
+}
+.formBottom{
+    margin-top: 30px;
+}
+.formbottom_form{
+    /* @apply mt-4; */
+}
+
+.formbottom_names_head{
+
+}
+.formbottom_names_contents{
+    @apply grid sm:grid-cols-3 1sm:grid-cols-2 grid-cols-1 gap-8;
+}
+
+.formbottom_names_head{
+    @apply flex 1sm:flex-row flex-col justify-between mb-10 mt-16;
+
+    & div{
+        @apply flex items-center ;
+        & svg{
+            margin-bottom: 3px;
+            margin-left: 5px;
+            color: rgb(67, 195, 3);
+            font-size: 17px;
+        }
+        & p{
+            @apply text-titleDescription text-[11px];
+        }
+    }
+
+    & span{
+        @apply text-[19px] text-title ;
+    }
+}
+
+.formbottom_names_content{
+    @apply flex  flex-col text-titleDescription;
+    & label{
+        @apply mb-2 text-[11px];
+    }
+
+    & input{
+        @apply rounded-[7px] bg-slate-200 p-2;
+    }
+
+    & textarea{
+        @apply rounded-[7px]  p-2;
+        border: 1px solid #efb5b5 ;
+    }
+}
+
+.addUserBtn{
+    background-color: blueviolet;
+    color: white;
+}
+.radioSuperUser{
+    @apply flex items-center ;
+}
+.radioSuperUser{
+    @apply flex items-center;
+    & span{
+        @apply ml-2;
+    }
+    & div{
+        @apply flex items-center justify-around ml-2;
+    }
+}
