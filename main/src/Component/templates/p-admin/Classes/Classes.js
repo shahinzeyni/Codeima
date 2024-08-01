@@ -101,7 +101,7 @@ export default function Classes() {
           'Access-Control-Allow-Origin': 'http://localhost:3001',
           'Content-Type':'application/json'
         },
-   
+        credentials:true,
         body: JSON.stringify(formBody)
       
     })
