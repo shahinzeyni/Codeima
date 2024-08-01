@@ -98,7 +98,8 @@ export default function Classes() {
         method: "POST",
         headers: {
           Authorization: `Bearer ${localStorageData.token}`,
-          'ContentType':'application/json'
+          'Access-Control-Allow-Origin': 'http://localhost:3001',
+          'Content-Type':'application/json'
         },
    
         body: JSON.stringify(formBody)
