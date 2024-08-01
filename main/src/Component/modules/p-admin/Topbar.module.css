@@ -1,0 +1,41 @@
+.topbarMain{
+    @apply rounded-[15px] flex items-center justify-between p-4 mb-8 bg-white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.topbar_left{
+    @apply flex ;
+}
+.notification {
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 7px;
+    & svg{
+        font-size: 33px;
+        color: rgb(162, 13, 191);
+
+    }
+
+}
+.profile {
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
+    & svg{
+
+        font-size: 33px;
+        color: rgb(162, 13, 191);
+
+    }
+
+}
+.topbar_right{
+    @apply font-DanaDemiBold text-blue-700 lg:text-[20px] text-[15px] ;
+}
+.topbarMenuIcon{
+    @apply lg:hidden block ;
+    & svg{
+        font-size: 20px;
+    }
+}
