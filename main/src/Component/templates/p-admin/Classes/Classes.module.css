@@ -4,10 +4,12 @@
 
 }
 .RegisterMainModal{
-    @apply container h-screen bg-white rounded-[20px] p-8;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
-    position: absolute;
-    top: 0;
+    @apply container  bg-white rounded-[20px] p-8;
+    box-shadow: rgba(0, 0, 0, 0.318) 0px 3px 12px;
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    width: 80%;
 
 
 }
@@ -21,10 +23,10 @@
     & div{
         @apply flex items-center text-[10px] text-title bg-zinc-200 rounded-[10px] p-2 ; 
         & span{
-            @apply text-[10px]  
+            @apply text-[10px]  ;
         }
         & svg{
-            @apply ml-2;
+            @apply text-[20px] text-title;
         }
     }
 }
@@ -201,7 +203,7 @@
     justify-content: center;
 }
 .mainNewRegister{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
