@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import s from "./Classes.module.css";
 import Swal from "sweetalert2";
 import { showSwal } from "@/utils/swalHelper";
+import Link from "next/link";
 
 export default function Classes() {
   const [allUsers, setAllUsers] = useState([]);
@@ -169,10 +170,9 @@ export default function Classes() {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${JSON.parse(localStorage.getItem("user")).token}`,
-         'Access-Control-Allow-Origin': true,
+        "Access-Control-Allow-Origin":true,
         'Content-Type': 'application/json'
-      },
-      credentials: "include",
+      },    credentials:'same-origin',
       body: JSON.stringify(formBody)
     })
       .then((res) => {
@@ -247,10 +247,10 @@ export default function Classes() {
   let menuRef = useRef()
   useEffect(()=>{
     let handler = (e) => {
+      console.log(e.target);
       if(e.target !== null){
         if( !menuRef.current.contains(e.target)){
           setOpen(false)
-        
         }
       }
     }
@@ -275,9 +275,12 @@ export default function Classes() {
   useEffect(()=>{
    if (isShowModalEdit){
     let ModalStudent = (e) => {
-      if(!refModalStudent.current.contains(e.srcElement)){
-        setOpenModal(false)
-      
+      if(e.target !== null ){
+
+        if(!refModalStudent.current.contains(e.srcElement)){
+          setOpenModal(false)
+        
+        }
       }
     }
     document.addEventListener("mousedown",ModalStudent)
@@ -288,7 +291,8 @@ export default function Classes() {
   return (
     <div className={s.RegisterMain}>
       <div className={s.nameSection}>
-        <span>ایجاد گروه جدید</span>
+        <span>ایجاد کلاس جدید</span>
+        <Link href="/p-admin/classes/content"  className="bg-title text-white flex items-center rounded-[7px] px-4 py-2 ">محتوای کلاس</Link>
       </div>
       <form action="POST" onSubmit={addClassBtn}>
         <div className={s.formBottom}>
@@ -581,12 +585,14 @@ export default function Classes() {
               </div>
               <div className={s.formbottom_names_content}>
                 <label htmlFor="">عکس</label>
-                <input
+               <div className="flex items-center">
+               <input
                   type="file"
                   className={s.formbottom_names_content_file}
                   onChange={convertToBase64}
                 />
-                <img src={courseCover} alt="" />
+                <img className="rounded-[7px] w-[70%]" src={courseCover} alt="" />
+               </div>
               </div>
             </div>
           </div>

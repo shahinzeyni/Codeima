@@ -55,6 +55,7 @@ export default function Login() {
             console.log(authContext.token)
          })
          .catch(err => {
+          console.log(err);
           showSwal("نام کاربری ویا رمز عبور صحیح نمی باشد!","",'error',"تلاش مجدد!")
          })
     }
